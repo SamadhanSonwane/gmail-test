@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Gmail Account Test Automation Suite]">
+  <test thread-count="5" name="Gmail Account Tests(failed)">
+    <classes>
+      <class name="com.example.qa.tests.InboxPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="findEmailTest" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.example.qa.tests.InboxPageTest -->
+    </classes>
+  </test> <!-- Gmail Account Tests(failed) -->
+</suite> <!-- Failed suite [Gmail Account Test Automation Suite] -->
